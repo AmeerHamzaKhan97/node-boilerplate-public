@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --recursive --reporter mocha-junit-reporter"
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mocha-junit-reporter": "^2.0.0",
     "mochawesome": "6.1.1"
   },
   "devDependencies": {
